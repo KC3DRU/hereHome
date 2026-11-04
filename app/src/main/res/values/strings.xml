@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Here</string>
+    <string name="widget_arrived_title">I have arrived</string>
+    <string name="widget_arrived_description">Tap to share your current location via SMS</string>
+    <string name="widget_heading_home_title">Heading Home</string>
+    <string name="widget_heading_home_description">Tap to share your departure location via SMS</string>
+    <string name="widget_moving_on_title">Moving On</string>
+    <string name="widget_moving_on_description">Tap to share where you are leaving from via SMS</string>
+    <string name="add_recipient">Add Recipient</string>
+    <string name="phone_hint">US number, e.g. 212 555 0100</string>
+    <string name="request_sms_permission">Request SMS Permission</string>
+    <string name="request_gps_permission">Request GPS Permission</string>
+</resources>

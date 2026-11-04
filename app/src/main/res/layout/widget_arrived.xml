@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Explicit colours only; no @android: drawables. Framework assets such as
+  ic_dialog_map render white on GrapheneOS and disappear against a pale
+  background. Kept compact so the widget is usable at 1x1.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1B5E20"
+    android:padding="3dp">
+
+    <TextView
+        android:id="@+id/widgetButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2E7D32"
+        android:gravity="center"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:padding="4dp"
+        android:text="📍\nArrived"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

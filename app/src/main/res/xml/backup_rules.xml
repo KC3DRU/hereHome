@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Legacy auto-backup rules (pre-Android 12 devices).
+    Excludes the recipient-list preferences (here_settings) and all internal
+    files from cloud backup.
+-->
+<full-backup-content>
+    <exclude domain="sharedpref" path="here_settings.xml" />
+    <exclude domain="file" path="." />
+</full-backup-content>

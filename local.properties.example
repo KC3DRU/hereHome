@@ -1,0 +1,7 @@
+# local.properties is MACHINE-SPECIFIC (it points at this machine's Android SDK)
+# and is deliberately git-ignored — NEVER commit your real local.properties.
+#
+# Copy this file to local.properties and set the path to the Android SDK on
+# your machine, e.g.:
+#
+# sdk.dir=/path/to/Android/Sdk

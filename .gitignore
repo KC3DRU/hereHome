@@ -1,0 +1,47 @@
+# --- Gradle / build output ---
+.gradle/
+build/
+app/build/
+*/build/
+local.properties
+
+# --- Android / IDE ---
+*.iml
+.idea/
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+bin/
+gen/
+
+# --- Keystores & signing secrets (NEVER commit) ---
+*.jks
+*.keystore
+*.p12
+*.pk8
+*.pem
+keystore.properties
+signing.properties
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Logs / temp ---
+*.log
+*.tmp
+
+# --- Session scratch (not for the published repo) ---
+CHECKPOINT.md
+AUDIT-NOTES.md
+
+WP*.md
+
+# --- Additional secret classes (SECURITY-REVIEW SR-6) ---
+.env
+.env.*
+*.key
+id_rsa*
+secrets*
+*.ab
